@@ -14,7 +14,7 @@ analytics tools on top of the **Stacks blockchain**.
 
 ## ✨ Features
 
--   📊 Wallet analytic
+-   📊 Wallet analytics
 -   💰 STX balance tracking
 -   🧾 Transaction history
 -   🪙 DeFi token positions (SIP‑010 tokens)

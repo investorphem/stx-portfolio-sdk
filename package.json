@@ -1,17 +1,26 @@
 {
   "name": "stx-portfolio-sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Developer SDK for tracking Stacks portfolios, DeFi positions, NFTs, and wallet analytics.",
   "main": "index.js",
   "type": "module",
+
   "repository": {
     "type": "git",
-    "url": "https://github.com/investorphem/STX-Portfolio-Tracker.git"
+    "url": "git+https://github.com/investorphem/stx-portfolio-sdk.git"
   },
+
   "bugs": {
-    "url": "https://github.com/investorphem/STX-Portfolio-Tracker/issues"
+    "url": "https://github.com/investorphem/stx-portfolio-sdk/issues"
   },
-  "homepage": "https://github.com/investorphem/STX-Portfolio-Tracker",
+
+  "homepage": "https://github.com/investorphem/stx-portfolio-sdk",
+
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/investorphem"
+  },
+
   "keywords": [
     "stacks",
     "stx",
@@ -21,11 +30,14 @@
     "nft",
     "stacks sdk"
   ],
+
   "author": "Oluwafemi Olagoke",
   "license": "MIT",
+
   "dependencies": {
     "axios": "^1.6.0"
   },
+
   "publishConfig": {
     "access": "public"
   }

@@ -2,7 +2,11 @@
 
 ![npm](https://img.shields.io/npm/v/stx-portfolio-sdk)
 ![npm downloads](https://img.shields.io/npm/dw/stx-portfolio-sdk)
+![npm version](https://img.shields.io/npm/v/stx-portfolio-sdk)
 ![license](https://img.shields.io/npm/l/stx-portfolio-sdk)
+![GitHub stars](https://img.shields.io/github/stars/investorphem/stx-portfolio-sdk)
+![GitHub issues](https://img.shields.io/github/issues/investorphem/stx-portfolio-sdk)
+![build](https://img.shields.io/github/actions/workflow/status/investorphem/stx-portfolio-sdk/publish.yml)
 
 **Developer SDK for tracking Stacks (STX) portfolios, DeFi positions,
 NFTs, and wallet analytics.**

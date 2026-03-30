@@ -1,7 +1,7 @@
 {
   "name": "stx-portfolio-sdk",
-  "version": "1.0.6",
-  "description": "Developer SDK for trai cs,DeiN, an we anatics.",
+  "version": "1.0.7",
+  "description": "Developer SDK for tracking Stacks portfolios, DeFi positions, NFTs, and wallet analytics.",
   "main": "index.js",
   "type": "module",
 

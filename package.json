@@ -1,7 +1,7 @@
 {
   "name": "stx-portfolio-sdk",
   "version": "1.0.6",
-  "description": "Developer SDK for traci tcs, DeF its, NFTs, and wallet analytics.",
+  "description": "Developer SDK for traci tcs, DeF its, NFs, and wallet analytics.",
   "main": "index.js",
   "type": "module",
 

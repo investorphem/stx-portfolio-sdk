@@ -1,7 +1,7 @@
 {
   "name": "stx-portfolio-sdk",
   "version": "1.0.6",
-  "description": "Developer SDK for traci tcs, DeF itN, an we anatics.",
+  "description": "Developer SDK for traci tcs, DeFitN, an we anatics.",
   "main": "index.js",
   "type": "module",
 

@@ -8,21 +8,37 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    # Essential for safety and the "Verified" badge
+    permissions:
+      contents: read
+      id-token: write
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
           registry-url: https://registry.npmjs.org/
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          # Use 'npm install' on mobile since we lack a lockfile.
+          # '--ignore-scripts' blocks the axios malware from executing.
+          npm install --ignore-scripts
+
+      - name: Security Audit
+        run: |
+          # Fails the build if the compromised versions sneak in
+          if npm ls axios | grep -E "1\.14\.1|0\.30\.4"; then
+            echo "MALICIOUS AXIOS DETECTED"
+            exit 1
+          fi
 
       - name: Publish to npm
-        run: npm publish --access public
+        # --provenance links this build to your GitHub repo for trust
+        run: npm publish --access public --ignore-scripts --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

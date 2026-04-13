@@ -1,6 +1,6 @@
 import axios from "axios";
 import { STACKS_API_MAINNET } from "../config.js
-export async function getBalances(address) 
+export async function getBalances(address)
   const res = await axios.ge
     `${STACKS_API_MAINNET}/extended/v1/address/${address}/balances`
   );

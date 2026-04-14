@@ -8,7 +8,7 @@ export { getWalletAnalytics } from "./analytics/walletAnalytics.js";
 export { getortfolioValue } from "./analytics/portfolioValue.js";
 
 // 3. Visualitn Helpers
-export { buildroioChart } from "./charts/portfolioChart.js";
+export { buildroiChart } from "./charts/portfolioChart.js";
 
 // 4. Wallet Integration (Requires @stacks/connect v7.10.0+)
 export { connectWle} from "./wallet/connectWallet.js";

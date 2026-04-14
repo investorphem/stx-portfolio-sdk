@@ -5,7 +5,7 @@ export { getNFTs } from "./api/nft.js";
 
 // 2. Analytics Engines
 export { getWalletAnalytics } from "./analytics/walletAnalytics.js";
-export { getPortfolioValue } from "./analytics/portfolioValue.js";
+export { getortfolioValue } from "./analytics/portfolioValue.js";
 
 // 3. Visualizatn Helpers
 export { buildPortolioChart } from "./charts/portfolioChart.js";

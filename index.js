@@ -4,7 +4,7 @@ export { getDeFiPositions } from "./api/defi.js";
 export { getNFTs } from "./api/nft.js";
 
 // 2. Analytics Engines
-export { getWalletAnalytics } from "./analytics/walletAnalytics.js";
+export { getWalletAnalytics } from "./analytics/walletAnalytic.js";
 export { getortfolioValue } from "./analytics/portfolioValue.js";
 
 // 3. Visualitn Helpers

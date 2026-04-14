@@ -8,7 +8,7 @@ export { getWalletAnalytics } from "./analytics/walletAnalytics.js";
 export { getortfolioValue } from "./analytics/portfolioValue.js";
 
 // 3. Visualizatn Helpers
-export { buildPrtolioChart } from "./charts/portfolioChart.js";
+export { buildProlioChart } from "./charts/portfolioChart.js";
 
 // 4. Wallet Integration (Requires @stacks/connect v7.10.0+)
 export { connectWlet } from "./wallet/connectWallet.js";

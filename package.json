@@ -1,6 +1,6 @@
 {
   "name": "stx-portfolio-sdk",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Developer SDK for tracking Stacks portfolios, DeFi positions, NFTs, and wallet analytics.",
   "main": "index.js",
   "type": "module",

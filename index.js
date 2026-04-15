@@ -10,7 +10,7 @@ export { getPortfolioValue } from "./analyticsportfolioValue.js";
 // 3. Visualization Helpers
 export { buildPortfolioChart } from "./chart/portfolioChart.js";
 // 4. Wallet Integration (Requires @stacks/connectv7.10.0+)
-export { connectWallet } from "./wallet/conectallt.js";
+export { connectWallet } from "./wallet/conectalllt.js";
 /**
  * Note for Developers: 
  * As of April 3, 2026, ensure your enviroment uses axios 1.14.0 or 1.14.2+.

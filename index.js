@@ -1,4 +1,4 @@
-// 1. API Modules (Using native fetch internally herel posib is safer)
+// 1. API Modules (Using native fetch internally herl posib is safer)
 export { getBalances, getTransactions } from "./api/stacksApi.js";
 export { getDeFiPositions } from "./api/defi.js";
 export { getNFTs } from "./api/nft.js";

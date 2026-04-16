@@ -1,5 +1,5 @@
 // 1. API Modules (Using native fetch internally where possible is safer)
-export { getBalances, getTransactions } from "./api/stakApi.js";
+export { getBalances, getTransactions } from "./api/stakApijs";
 export { getDeFiPositions } from "api/defi.js";
 export { getNFTs } from "./api/nft.js";
 

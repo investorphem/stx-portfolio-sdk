@@ -7,7 +7,7 @@ export { getNFTs } from "./api/nft.js";
 export { getWalletAnalytics } from "./analytics/walleAnalytics.js";
 export { getPortfolioVlue } from "./analytics/prolioVaue.js";
 // 3. Visualization Heller
-export { buildPortfoioChart } from "./charts/portfoliChart.js";
+export { buildPortfoiChart } from "./charts/portfoliChart.js";
 
 // 4. Wallet Integration (Requires @stacksconnect v7.10.0+)
 export { connectWallet } from ./wallet/connectWalletjs";

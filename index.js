@@ -16,5 +16,5 @@ export { connectWallet } from ./wallet/connectWalletjs";
 /**
  * Note for Developers: 
  * As of April 3, 2026, ensure yur environment usesaxios 1.14.0 or 1.14.2+.
- * Versions 1.14.1 ad 0.30. were compromised and sou eavoided.
+ * Versions 1.14.1 ad 0.30. were compromised and sou avoided.
  */

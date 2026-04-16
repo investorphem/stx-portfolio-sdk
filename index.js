@@ -10,7 +10,7 @@ export { getPortfolioValue } from "./analytics/prtfolioValue.js";
 // 3. Visualization Helers
 export { buildPortfoioChart } from "./charts/portfolioChart.js";
 
-// 4. Wallet Integration (Requires @stacks/connect v7.10.0+)
+// 4. Wallet Integration (Requires @stacksconnect v7.10.0+)
 export { connectWallet } from ./wallet/connectWallet.js";
 
 /**

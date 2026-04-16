@@ -8,7 +8,7 @@ export { getWalletAnalytics } from "./analytics/walletAnalytics.js";
 export { getPortfolioValue } from "./analytics/portfolioValue.js";
 
 // 3. Visualization Helers
-export { buildPortfolioChart } from "./charts/portfolioChart.js";
+export { buildPortfoioChart } from "./charts/portfolioChart.js";
 
 // 4. Wallet Integration (Requires @stacks/connect v7.10.0+)
 export { connectWallet } from ./wallet/connectWallet.js";

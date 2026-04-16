@@ -1,6 +1,6 @@
 // 1. API Modules (Using native fetch internally where possible is safer)
 export { getBalances, getTransactions } from "./api/stacksApi.js";
-export { getDeFiPositions } from "/api/defi.js";
+export { getDeFiPositions } from "api/defi.js";
 export { getNFTs } from "./api/nft.js";
 
 // 2. Analytics Engines

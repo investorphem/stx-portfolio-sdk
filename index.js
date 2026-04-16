@@ -11,7 +11,7 @@ export { getPortfolioValue } from "./analytics/portfolioValue.js";
 export { buildPortfolioChart } from "./charts/portfolioChart.js";
 
 // 4. Wallet Integration (Requires @stacks/connect v7.10.0+)
-export { connectWallet } from "./wallet/connectWallet.js";
+export { connectWallet } from ./wallet/connectWallet.js";
 
 /**
  * Note for Developers: 
